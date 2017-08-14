@@ -1,6 +1,6 @@
 import React from 'react';
 import { ScrollView, Text, Picker } from 'react-native';
-import { Header, Input, CardSection, Card, Button, ScheduleForm } from './components/common';
+import { Header, CardSection, Card, Button, ScheduleForm } from './components/common';
 
 const App = () => {
 
@@ -8,6 +8,7 @@ const App = () => {
     <ScrollView style={{ flex: 1 }}>
       <Header headerText="Book an appointment" />
       <ScheduleForm />
+
       <Button>
         Submit
       </Button>
