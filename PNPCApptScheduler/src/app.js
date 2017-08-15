@@ -18,9 +18,11 @@ const App = () => {
         />
       </View>
       <ScheduleForm />
-      <Button onPress={() => Linking.openURL('http://mailto:davidjg6@gmail.com')}>
+      <View style={{paddingTop: 10}}>
+      <Button>
         Submit
       </Button>
+    </View>
     </ScrollView>
   );
 };
@@ -30,7 +32,8 @@ const styles = {
     flexDirection: 'row',
     justifyContent: 'space-between',
     paddingLeft: 30,
-    paddingRight: 30
+    paddingRight: 30,
+    paddingTop: 15
   }
 }
 
