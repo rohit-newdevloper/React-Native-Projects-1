@@ -6,3 +6,4 @@ export * from './Input';
 export * from './Spinner';
 export * from './StateDropdown';
 export * from './ScheduleForm';
+export * from './Confirm';
